@@ -133,15 +133,16 @@
     .overlay {
       position: absolute;
       inset: 0;
-      display: grid;
-      place-items: center;
+      display: flex;
       padding: 18px;
+      overflow-y: auto;
       background: rgba(5, 20, 12, .74);
       transition: opacity 160ms ease;
     }
     .overlay[hidden] { display: none; }
 
     .card {
+      margin: auto;
       width: min(460px, 92%);
       background: var(--panel);
       color: var(--ink);
@@ -293,6 +294,11 @@
       .legend div { padding: 3px 2px; font-size: .56rem; }
       .legend b { font-size: .68rem; }
       .primary-btn { min-height: 34px; padding: 6px 14px; font-size: .7rem; box-shadow: 0 3px 0 #a16e12; }
+      .overlay { padding: 10px; }
+      #endOverlay .result-big { margin-top: 4px; font-size: 2.1rem; }
+      #endOverlay .final-score { margin-top: 6px; font-size: 1.05rem; }
+      #endOverlay .final-score b { font-size: 1.35rem; }
+      #endOverlay .card p { margin: 5px auto 9px; }
       .controls { grid-template-columns: 1fr 90px; gap: 8px; }
       .restart-btn { min-width: 0; padding: 6px; font-size: .78rem; }
       .swing-btn { min-height: 58px; }
