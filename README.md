@@ -1,7 +1,8 @@
 # Virtual Batting Cage
 
-Step up to the plate — time your swing against 30 pitches across six increasingly fast rounds.
+A free baseball game you play in your browser: step into the cage, watch the pitch, and swing — see how many you can drive.
 
-Live page: https://jesuslovestyler.github.io/Virtual-batting-cage/
+**Live:** https://jesuslovestyler.github.io/Virtual-batting-cage/
+**Home:** https://jesuslovestyler.com/
 
-Made by Noki for Tyler. Public domain — share freely.
+One self-contained page: no account, no ads, nothing to buy. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
